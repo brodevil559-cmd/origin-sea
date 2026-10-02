@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Origin.ai</title>
+    <style>
+        body {
+            background-color: #121212;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            overflow: hidden;
+        }
+        
+        .search-container {
+            text-align: center;
+            width: 100%;
+            max-width: 540px;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        
+        h1 {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            font-size: 62px;
+            font-weight: 700;
+            color: #ffffff;
+            margin-top: 0;
+            margin-bottom: 32px;
+            letter-spacing: -1.5px;
+        }
+        
+        form {
+            margin: 0;
+            width: 100%;
+        }
+        
+        .search-box {
+            width: 100%;
+            padding: 16px 24px;
+            font-size: 16px;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            border-radius: 28px;
+            border: 1px solid #2d2d2d;
+            background-color: #1e1e1e;
+            color: #ffffff;
+            outline: none;
+            box-sizing: border-box;
+            transition: all 0.2s ease;
+        }
+        
+        .search-box:hover, .search-box:focus {
+            background-color: #242424;
+            border-color: #444444;
+            box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="search-container">
+        <h1>Origin.ai</h1>
+        <form action="https://google.com" method="GET">
+            <input type="text" name="q" class="search-box" placeholder="Search the web..." autofocus autocomplete="off">
+        </form>
+    </div>
+
+</body>
+</html>
+
